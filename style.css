@@ -753,8 +753,8 @@ border-bottom: 8px solid #030175;
 @media(max-width:600px){
   .industry-grid{grid-template-columns:1fr;}
   .industry-circle{
-    width:290px;
-    height:290px;
+    width:320px;
+    height:320px;
     padding:25px 20px;
   }
   .industry-circle h3{font-size:18px;}
