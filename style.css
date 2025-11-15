@@ -700,7 +700,7 @@ border-bottom: 8px solid #030175;
 
 /* WHITE CIRCLE */
 .industry-circle{
-  width:378px;
+  width:385px;
   height:378px;
   background:white;
   border:10px solid #000065;
@@ -749,7 +749,7 @@ border-bottom: 8px solid #030175;
   .industry-circle i{font-size:50px;}
 }
 
-/* ========= MOBILE ========= */
+/* MOBILE  */
 @media(max-width:600px){
   .industry-grid{grid-template-columns:1fr;}
   .industry-circle{
@@ -870,7 +870,7 @@ border-bottom: 8px solid #030175;
             left: 50%;
             top: 0;
             transform: translateX(-50%);
-            width: 6px; /*increased line width*/
+            width: px; /*increased line width*/
             height: 100%;
             background: #030175;
         }
@@ -1077,108 +1077,9 @@ border-bottom: 8px solid #030175;
 
 
 
-/*videos section start*/
-/* Intro box */
-.videos-intro {
-  background-color: #030175; /* navy blue */
-  color: white;
-  text-align: center;
-  padding: 3px 15px 8px;
-}
-
-/* Video section */
-.videos-section {
-  background: #ebeaea;
-  padding: 60px 5%;
-}
-
-/* Video grid layout */
-.video-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* ✅ 2 per row */
-  gap: 40px;
-  justify-items: center;
-}
-
-/* Individual video container */
-.video-item {
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  width: 100%;
-  max-width: 600px;
-  transition: transform 0.3s ease;
-}
-
-.video-item:hover {
-  transform: translateY(-5px);
-}
-
-/* Video iframe */
-.video-item iframe {
-  width: 100%;
-  height: 340px;
-  border: none;
-  display: block;
-}
-
-/* Headings under videos */
-.video-item h3 {
-  color: #030175;
-  font-size: 18px;
-  text-align: center;
-  padding: 15px 10px 20px;
-  background: #fff;
-  margin: 0;
-  border-top: 1px solid #ddd;
-}
-
-/* ===== RESPONSIVE DESIGN ===== */
-
-/* Tablets */
-@media (max-width: 992px) {
-  .video-grid {
-    grid-template-columns: 1fr; /* ✅ one video per row */
-    gap: 30px;
-  }
-
-  .video-item iframe {
-    height: 320px;
-  }
-}
-
-/* Mobiles */
-@media (max-width: 768px) {
-  .videos-intro h1 {
-    font-size: 28px;
-  }
-
-  .video-item iframe {
-    height: 250px;
-  }
-
-  .video-item h3 {
-    font-size: 16px;
-    padding: 12px 8px 16px;
-  }
-}
-
-/* Small phones */
-@media (max-width: 480px) {
-  .video-item iframe {
-    height: 220px;
-  }
-
-  .video-item h3 {
-    font-size: 15px;
-  }
-}
-/*videos section end*/
-
 /* CONTACT US SECTION START */
 
-/* Title bar */
+
 .contactus-intro {
   background-color: #030175; /* navy blue */
   color: white;
